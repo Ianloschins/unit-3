@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  background-image: url(https://us1-prod-images.disco-api.com/2023/02/07/ea37d85d-398b-3f77-a021-9fa8ce3f172d.jpeg?bf=0&f=jpg&p=true&q=85&w=1920);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+/* Player card styles */
+.player-card {
+  width: calc(25% - 20px);
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 183, 0, 0.863);
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 5px blue;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.player-card:hover {
+  transform: translateY(-10px);
+}
+
+.player-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px 20px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.player-card h2 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.player-card a {
+  display: block;
+  margin-top: 15px;
+  color: #008CBA;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.player-single-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 183, 0, 0.863);
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px 5px blue;
+}
+
+.player-single-card img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50px 20px;
+}
+
+.player-single-card h2 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.player-single-card button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.player-single-card button:hover {
+  background-color: #006080;
+}
+
+/* Search bar styles */
+.searchbar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.searchbar input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* SinglePlayer styles */
+.single-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.single-player h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.single-player img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.single-player button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* NavBar styles */
+nav {
+  background-color: #008CBA;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.allPlayerTitle {
+  font-size: 28px;
+  margin: 20px 0;
+}
